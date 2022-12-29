@@ -4,6 +4,7 @@ import Home from './templates/App';
 import GlobalStyle from './styles/global';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
+import Heading from './components/Heading';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +12,7 @@ root.render(
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Home />
+      <Heading>STORYBOOK TEST</Heading>
     </ThemeProvider>
   </React.StrictMode>,
 );
