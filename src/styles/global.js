@@ -2,11 +2,11 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
   * {
     margin: 0;
-    padding: 0;    
+    padding: 0;   
+    box-sizing : border-box ;
   }
 
   html {
@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Open Sans', sans-serif;
   }
 
-  h1 {
+  h1, h2, h3,h4,h5,h6 {
     font-family: 'Montserrat', sans-serif;
   }
 `;
