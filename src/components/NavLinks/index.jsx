@@ -4,7 +4,7 @@ import MenuLink from '../MenuLink';
 
 const NavLinks = ({ links = [] }) => {
   return (
-    <S.Wrapper>
+    <S.Wrapper aria-label='Main menu'>
       {links.map((link) => (
         <MenuLink key={link.link} {...link} />
       ))}
