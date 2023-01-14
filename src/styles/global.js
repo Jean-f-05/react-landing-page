@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
 
   * {
     margin: 0;
-    padding: 0;   
+    padding: 0;
     box-sizing : border-box ;
   }
 
@@ -22,6 +22,20 @@ const GlobalStyle = createGlobalStyle`
 
   h1, h2, h3,h4,h5,h6 {
     font-family: 'Montserrat', sans-serif;
+    margin: ${({ theme }) => theme.spacing.large} 0;
+  }
+
+  p {
+    margin: ${({ theme }) => theme.spacing.medium} 0;
+  }
+
+  ul,ol {
+    margin: ${({ theme }) => theme.spacing.medium};
+    padding: ${({ theme }) => theme.spacing.medium};
+  }
+
+  a {
+    color: ${({ theme }) => theme.colors.secondaryColor};
   }
 `;
 
