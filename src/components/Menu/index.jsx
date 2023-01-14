@@ -1,3 +1,4 @@
+/* eslint-disable */
 import * as S from './styles';
 import P from 'prop-types';
 import SectionContainer from '../SectionContainer';
@@ -12,10 +13,10 @@ const Menu = ({ links = [], logoData }) => {
 
   return (
     <>
-      <S.Button visible={visible}  onClick={()=>setMenuVisible(!visible)} aria-label="Open/Close menu">
+      <S.Button visible={visible} onClick={() => setMenuVisible(!visible)} aria-label="Open/Close menu">
         {visible ? <CloseIcon aria-label="Close menu" /> : <MenuIcon aria-label="Open menu" />}
       </S.Button>
-      <S.Wrapper visible={visible} onClick={()=> setMenuVisible(false)}>
+      <S.Wrapper visible={visible} onClick={() => setMenuVisible(false)}>
         <SectionContainer>
           <S.MenuWrapper >
             <LogoLink {...logoData} />

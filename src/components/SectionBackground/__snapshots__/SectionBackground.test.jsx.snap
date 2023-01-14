@@ -2,9 +2,9 @@
 
 exports[`<SectionBackground/> should render with background color dark 1`] = `
 .c0 {
-  background-color: #fff;
+  background: #fff;
   color: #0A1128;
-  background-color: #0A1128;
+  background: #0A1128;
   color: #fff;
   min-height: 100vh;
   display: -webkit-box;
@@ -40,7 +40,7 @@ exports[`<SectionBackground/> should render with background color dark 1`] = `
 
 exports[`<SectionBackground/> should render with background color light 1`] = `
 .c0 {
-  background-color: #fff;
+  background: #fff;
   color: #0A1128;
   min-height: 100vh;
   display: -webkit-box;
