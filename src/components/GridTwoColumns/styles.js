@@ -1,6 +1,5 @@
-/* eslint-disable */
 import styled, { css } from 'styled-components';
-import { Header } from "../Heading/styles"
+import { Header } from '../Heading/styles';
 
 export const Wrapper = styled.div`
     ${({ theme, background }) => css`
@@ -26,7 +25,6 @@ export const TextWrapper = styled.div`
         `}
     }
 `;
-
 
 export const ImageWrapper = styled.div``;
 
