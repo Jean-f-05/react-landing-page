@@ -32,5 +32,5 @@ export default Menu;
 
 Menu.propTypes = {
   ...NavLinks.propTypes,
-  LogoData: P.shape(LogoLink.propTypes).isRequired,
+  LogoData: P.shape(LogoLink.propTypes),
 };
