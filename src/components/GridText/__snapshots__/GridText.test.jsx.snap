@@ -86,11 +86,11 @@ exports[`<GridText/> should render with background  1`] = `
         >
           My Grid
         </h2>
-        <p
+        <div
           class="c5 c6"
         >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.Ut quasi error, repellat quia, rerum placeat voluptate corrupti veritatis aliquam sapiente animi ipsa illum non vitae similique temporibus quod accusantium quam?
-        </p>
+        </div>
         <div
           class="c7"
         >
@@ -102,11 +102,11 @@ exports[`<GridText/> should render with background  1`] = `
             >
               GRID 1
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus hic neque natus atque ducimus vero fugit. Accusamus sequi molestiae quisquam modi provident cum, ea, nostrum nihil maxime, sunt tempora explicabo.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -116,11 +116,11 @@ exports[`<GridText/> should render with background  1`] = `
             >
               GRID 2
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus hic neque natus atque ducimus vero fugit. Accusamus sequi molestiae quisquam modi provident cum, ea, nostrum nihil maxime, sunt tempora explicabo.
-            </p>
+            </div>
           </div>
         </div>
       </div>
@@ -215,11 +215,11 @@ exports[`<GridText/> should render without background  1`] = `
         >
           My Grid
         </h2>
-        <p
+        <div
           class="c5 c6"
         >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.Ut quasi error, repellat quia, rerum placeat voluptate corrupti veritatis aliquam sapiente animi ipsa illum non vitae similique temporibus quod accusantium quam?
-        </p>
+        </div>
         <div
           class="c7"
         >
@@ -231,11 +231,11 @@ exports[`<GridText/> should render without background  1`] = `
             >
               GRID 1
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus hic neque natus atque ducimus vero fugit. Accusamus sequi molestiae quisquam modi provident cum, ea, nostrum nihil maxime, sunt tempora explicabo.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -245,11 +245,11 @@ exports[`<GridText/> should render without background  1`] = `
             >
               GRID 2
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus hic neque natus atque ducimus vero fugit. Accusamus sequi molestiae quisquam modi provident cum, ea, nostrum nihil maxime, sunt tempora explicabo.
-            </p>
+            </div>
           </div>
         </div>
       </div>
