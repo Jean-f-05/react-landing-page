@@ -7,10 +7,9 @@ const changeBg = (color, theme) => css`
 
 export const Wrapper = styled.div`
     ${({ color, theme }) => css`
-        color: ${color};
-        background-color: ${theme.colors.mainBg};
+
        ${changeBg(color, theme)}
-`}  
+`}
 
     font-size: ${({ theme }) => theme.fonts.regular}
 `;

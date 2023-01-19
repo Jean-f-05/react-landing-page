@@ -12,7 +12,6 @@ root.render(
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Home />
-      <Heading>STORYBOOK TEST</Heading>
     </ThemeProvider>
   </React.StrictMode>,
 );

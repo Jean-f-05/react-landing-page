@@ -1,9 +1,11 @@
 import * as S from './styles';
+import { mockBase } from '../Base/mock';
+import Base from '../Base/';
 
 function Home() {
   return (
-    <S.Wrapper color="green">
-      <h1>Hello</h1>
+    <S.Wrapper>
+      <Base {...mockBase} />
     </S.Wrapper>
   );
 }
