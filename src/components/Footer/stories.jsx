@@ -4,7 +4,8 @@ export default {
   title: 'Footer',
   component: Footer,
   args: {
-    html: '<p><a href="https://github.com/Jean-f-05">Done by John Francis</a></p>',
+    footerHtml:
+      '<p><a href="https://github.com/Jean-f-05">Done by John Francis</a></p>',
   },
   argTypes: {
     html: { type: 'string' },

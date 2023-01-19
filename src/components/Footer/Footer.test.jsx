@@ -4,11 +4,11 @@ import { screen } from '@testing-library/react';
 
 describe('<Footer/>', () => {
   it('should render element', () => {
-    renderTheme(<Footer html={'<h1>HELLO</h1>'} />);
+    renderTheme(<Footer footerHtml={'<h1>HELLO</h1>'} />);
     expect(screen.getByRole('heading')).toBeInTheDocument();
   });
   it('should match the snapshot', () => {
-    const { container } = renderTheme(<Footer html={'<h1>HELLO</h1>'} />);
+    const { container } = renderTheme(<Footer footerHtml={'<h1>HELLO</h1>'} />);
     expect(container).toMatchSnapshot();
   });
 });

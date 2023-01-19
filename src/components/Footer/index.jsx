@@ -3,11 +3,11 @@ import P from 'prop-types';
 import TextComponent from '../TextComponent';
 import SectionContainer from '../SectionContainer';
 
-const Footer = ({ html }) => {
+const Footer = ({ footerHtml }) => {
   return (
     <S.Wrapper>
       <SectionContainer>
-        <TextComponent>{html}</TextComponent>
+        <TextComponent>{footerHtml}</TextComponent>
       </SectionContainer>
     </S.Wrapper>
   );
@@ -16,5 +16,5 @@ const Footer = ({ html }) => {
 export default Footer;
 
 Footer.propTypes = {
-  html: P.string.isRequired,
+  footerHtml: P.string.isRequired,
 };
