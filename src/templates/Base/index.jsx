@@ -10,7 +10,7 @@ const Base = ({ links, logoData, footerHtml, children }) => {
       <Menu links={links} logoData={logoData} />
       <S.Wrapper>
         {children}
-        <Footer html={footerHtml} />
+        <Footer footerHtml={footerHtml} />
       </S.Wrapper>
       <GoTop />
     </>

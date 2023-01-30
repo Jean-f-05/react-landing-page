@@ -4,9 +4,9 @@ import SectionBackground from '../SectionBackground';
 import Heading from '../Heading';
 import TextComponent from '../TextComponent';
 
-const GridContent = ({ title, html, background = false }) => {
+const GridContent = ({ title, html, background = false, sectionId }) => {
   return (
-    <SectionBackground background={background}>
+    <SectionBackground background={background} sectionId={sectionId}>
       <S.Wrapper>
         <Heading isUpperCase colorDark={!background}>
           {title}
@@ -25,4 +25,5 @@ GridContent.propTypes = {
   title: P.string.isRequired,
   html: P.string.isRequired,
   background: P.bool,
+  sectionId: P.string,
 };

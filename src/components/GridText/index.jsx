@@ -4,7 +4,13 @@ import SectionBackground from '../SectionBackground';
 import Heading from '../Heading';
 import TextComponent from '../TextComponent';
 
-const GridText = ({ title, description, grid, background = false }) => {
+const GridText = ({
+  title,
+  description,
+  grid,
+  background = false,
+  sectionId = '',
+}) => {
   return (
     <SectionBackground background={background}>
       <S.Wrapper>
@@ -39,4 +45,5 @@ GridText.propTypes = {
       description: P.string.isRequired,
     }),
   ).isRequired,
+  sectionId: P.string,
 };

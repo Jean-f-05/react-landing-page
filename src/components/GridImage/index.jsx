@@ -4,9 +4,15 @@ import SectionBackground from '../SectionBackground';
 import Heading from '../Heading';
 import TextComponent from '../TextComponent';
 
-const GridImage = ({ background = false, title, description, grid }) => {
+const GridImage = ({
+  background = false,
+  title,
+  description,
+  grid,
+  sectionId,
+}) => {
   return (
-    <SectionBackground background={background}>
+    <SectionBackground background={background} sectionId="">
       <S.Wrapper>
         <Heading isUpperCase size="huge" colorDark={!background} as="h2">
           {title}
@@ -36,4 +42,5 @@ GridImage.propTypes = {
       src: P.string.isRequired,
     }),
   ).isRequired,
+  sectionId: P.string,
 };

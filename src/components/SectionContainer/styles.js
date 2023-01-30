@@ -5,4 +5,5 @@ export const Wrapper = styled.div`
         max-width: 120rem;
         margin: 0 auto;
         padding: ${theme.spacing.large};
+        width: 100%;
 `}`;
